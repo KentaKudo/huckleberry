@@ -28,6 +28,10 @@ body {
 
 /* Add styles here! */
 
+html {
+  background-color: var(--grayscale-light);
+}
+
 strong {
   color: var(--primary);
 }
@@ -57,8 +61,6 @@ header {
 
 main {
   padding-top: 96px;
-  min-height: 100%;
-  background-color: var(--grayscale-light);
 }
 
 .card {
